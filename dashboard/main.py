@@ -6,7 +6,7 @@ from babel.numbers import format_currency
 
 sns.set(style='dark')
 
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/annwarsa/Submission-Dicoding/main/dashboard/all_data.csv")
 
 def review(df):
     review_scores = all_df.groupby('product_category_name_english')['review_score'].mean().reset_index()
