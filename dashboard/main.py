@@ -79,7 +79,7 @@ max_date = all_df["order_approved_at"].max()
 ## Sidebar
 with st.sidebar:
     #Menambahkan logo
-    st.image("dicoding_logo.jpeg")
+    st.image("https://github.com/annwarsa/Submission-Dicoding/blob/main/dashboard/dicoding_logo.jpeg")
 
     #Mengambil start and end date dari input
     start_date, end_date = st.date_input(
